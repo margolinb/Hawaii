@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kauaʻi Itinerary — Oct 17–26 2025 (v18.4)</title>
+<title>Kauaʻi Itinerary — Oct 17–26 2025 (v18.5)</title>
 <style>
   :root{
     --bg:#f3fbff;--card:#fff;--ink:#0f2233;--muted:#4b657a;--line:#e4edf3;
@@ -41,12 +41,15 @@
   .foot{text-align:center;font-size:.85rem;color:#345;margin-top:20px}
   .foot a{color:#0a61c9;text-decoration:none}
   .foot a:hover{text-decoration:underline}
+  /* Collapsible tweaks */
+  details.collapsible{margin:8px 0}
+  details.collapsible summary{cursor:pointer}
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="hero">
-    <h1>Kauaʻi Dive · Kayak · Hike Itinerary <span class="tag">v18.4</span></h1>
+    <h1>Kauaʻi Dive · Kayak · Hike Itinerary <span class="tag">v18.5</span></h1>
     <div class="sub">Oct 17–26 2025 • Base: <a style="color:#fff;text-decoration:underline"
       href="https://www.kuhioshores.net/site/409.html">Kuhio Shores 409 (Moon Glow Suite)</a> · Poʻipū • Travelers: Brian &amp; Jen</div>
   </div>
@@ -160,19 +163,25 @@
         • <a href="https://maps.app.goo.gl/2V4c3EoSBzmH9iLaA">Foodland Princeville</a> — bento boxes, musubi, sandwiches, drinks (6 AM–9 PM)
       </li>
 
-<li class="prep"><strong>Hanalei Food Options (Before or After the Hike)</strong><br>
-  <em>Just 1 mile north of the Waipā Park &amp; Ride — perfect for grabbing food before the 10 AM shuttle or relaxing afterward.</em><br><br>
+      <!-- New collapsible Hanalei section -->
+      <li class="prep">
+        <details class="collapsible">
+          <summary><strong>Hanalei Food Options (Before or After the Hike)</strong> — tap to expand</summary>
+          <div style="margin-top:8px">
+            <em>Just 1 mile north of the Waipā Park &amp; Ride — perfect for grabbing food before the 10 AM shuttle or relaxing afterward.</em><br><br>
 
-  • <a href="https://maps.app.goo.gl/zRKrYjYHRKtkfKT68">Hanalei Bread Company</a> — breakfast &amp; baguette sandwiches, croissants, cold brew (7 AM–1 PM)<br>
-  • <a href="https://maps.app.goo.gl/UL8iRzLxLVvH79Jx5">Trilogy Coffee &amp; Tea Bar</a> — smoothies, acai bowls, espresso (7 AM–2 PM)<br>
-  • <a href="https://maps.app.goo.gl/y6rkbx7WADusvLQ27">Harvest Market Hanalei</a> — deli sandwiches, salads, trail snacks (8 AM–8 PM)<br>
-  • <a href="https://maps.app.goo.gl/Q1f2NEK3PqVxU7mu6">Hanalei Dolphin Fish Market</a> — fresh poke bowls &amp; sushi rolls (9 AM–6 PM)<br><br>
+            • <a href="https://maps.app.goo.gl/zRKrYjYHRKtkfKT68">Hanalei Bread Company</a> — breakfast &amp; baguette sandwiches, croissants, cold brew (7 AM–1 PM)<br>
+            • <a href="https://maps.app.goo.gl/UL8iRzLxLVvH79Jx5">Trilogy Coffee &amp; Tea Bar</a> — smoothies, acai bowls, espresso (7 AM–2 PM)<br>
+            • <a href="https://maps.app.goo.gl/y6rkbx7WADusvLQ27">Harvest Market Hanalei</a> — deli sandwiches, salads, trail snacks (8 AM–8 PM)<br>
+            • <a href="https://maps.app.goo.gl/Q1f2NEK3PqVxU7mu6">Hanalei Dolphin Fish Market</a> — fresh poke bowls &amp; sushi rolls (9 AM–6 PM)<br><br>
 
-  <strong>After-Hike Treats</strong><br>
-  • <a href="https://maps.app.goo.gl/f7DQZuh6aj3kCdY77">Wishing Well Shave Ice</a> — classic shave ice &amp; smoothies (outdoor seating)<br>
-  • <a href="https://maps.app.goo.gl/vWkBqqWvL3Pg9dtT9">Pink’s Creamery</a> — coconut milk ice cream &amp; grilled cheese<br>
-  • <a href="https://maps.app.goo.gl/JmNte5G6gBB2oNdt7">Tahiti Nui</a> — local pizzeria &amp; cocktail spot for a relaxed late lunch
-</li>
+            <strong>After-Hike Treats</strong><br>
+            • <a href="https://maps.app.goo.gl/f7DQZuh6aj3kCdY77">Wishing Well Shave Ice</a> — classic shave ice &amp; smoothies (outdoor seating)<br>
+            • <a href="https://maps.app.goo.gl/vWkBqqWvL3Pg9dtT9">Pink’s Creamery</a> — coconut milk ice cream &amp; grilled cheese<br>
+            • <a href="https://maps.app.goo.gl/JmNte5G6gBB2oNdt7">Tahiti Nui</a> — local pizzeria &amp; cocktail spot for a relaxed late lunch
+          </div>
+        </details>
+      </li>
 
       <li class="prep"><strong>Check-In &amp; Trail Info</strong><br>
         Arrive 10 min early • Download tickets (coverage is spotty) • Keep wristband for return shuttles.<br>
@@ -274,7 +283,7 @@
   </div>
 
   <div class="foot">
-    🌺 v18.4 — Updated 10 AM GoHaena shuttle schedule + food stop plan; universal Gmail web links and offline PDFs intact.<br>
+    🌺 v18.5 — Added collapsible Hanalei food options; 10 AM shuttle timeline + food-stop plan; universal Gmail web links and offline PDFs intact.<br>
     📘 <a href="https://github.com/margolinb/Hawaii/blob/main/README.md" target="_blank">View change log / README</a>
   </div>
 </div>
